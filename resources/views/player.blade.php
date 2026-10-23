@@ -18,7 +18,8 @@
         <title>{{ $series['title'] }} — Radio Drama</title>
 
         <link rel="manifest" href="{{ asset('manifest.webmanifest') }}">
-        <link rel="icon" type="image/png" href="{{ asset('images/icon-192.png') }}">
+        <link rel="icon" href="{{ asset('favicon.ico') }}" sizes="48x48">
+        <link rel="icon" type="image/png" href="{{ asset('images/icon-192.png') }}" sizes="192x192">
         <link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png') }}">
         <link rel="preload" as="image" href="{{ $book['cover'] }}">
 
